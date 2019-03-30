@@ -3,6 +3,7 @@ function cargarPagina(){
     var imagen=document.querySelector('.imagen');
     var seleccionada = 0;
     var imagenes=document.querySelectorAll('.imagen');
+    var titulo=document.querySelector('.titulo');
 
     function cambiarPosicion(event){
         console.log(event.code);
